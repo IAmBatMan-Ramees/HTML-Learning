@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Learning 2</title>
+    </head>
+<body>
+    <h1>HTML Forms</h1>
+    <form>
+        <div></div>
+            <label for="username">Username:</label>
+            <input type="username" name="username" id="username" placeholder="Username" required>
+            <br><br>
+            <label for="Email">Email id:</label>
+            <input type="Email" name="Email" id="Email" placeholder="Your Email id" required>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Choose a Password" required>
+        </div>
+        <div>
+            <br>
+            <p><strong>Select your age group:</strong></p>
+            <input type="radio" name="age" value="0-18" id="option 1">
+            <label for="option 1">0 - 18</label>
+            <br>
+            <input type="radio" name="age" value="19-30" id="option 2">
+            <label for="option 2">19 - 30</label>
+            <br>
+            <input type="radio" name="age" value="31-50" id="option 3">
+            <label for="option 3">31 - 50</label>
+            <br>
+            <input type="radio" name="age" value="51+" id="option 4">
+            <label for="option 4">50+</label>
+        </div>
+        <div>
+            <br><br>
+            <label for="security questions">Security Questions:</label>
+            <select name="questions" id="security questions">
+                <option value="q1">What is your favourite colour</option>
+                <option value="q2">What is your hometown</option>
+                <option value="q3">What is your favourite food</option>
+            </select>
+            <br><br>
+            <label for="security answer">Answer:</label>
+            <input type="text" name="security answer" id="security answer" required>
+        </div>
+        <div>
+            <br><br>
+            <label for="bio">Your Bio:</label>
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you"></textarea>
+        </div>
+        <div>
+            <br><br>
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+</body>
+</html> 
