@@ -1,0 +1,29 @@
+h1{
+    color: orange;
+    background-color: slategray;
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+}
+h2{
+    color: limegreen;
+    text-decoration: underline;
+    border: 4px dotted crimson;
+}
+p{
+    color: slategrey;
+    font-family: arial;
+    line-height: 20px;
+    letter-spacing: 2px;
+    column-count: 2;
+    column-gap: 30px;
+}
+ol{
+    border-bottom: dashed;
+    border-left: solid;
+    border-color: rgb(134, 39, 223);
+}
+li{
+    list-style-type: square;
+    text-shadow:rgb(154, 233, 233) 2px 3px;
+}
