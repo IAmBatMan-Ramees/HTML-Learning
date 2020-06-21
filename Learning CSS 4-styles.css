@@ -1,0 +1,60 @@
+div{
+    border: solid 3px navy;
+    margin: 10px;
+}
+p{
+    border: dashed 2px lightseagreen;
+}
+#content{
+    border: dotted 2px lightcoral;
+}
+div p{
+    color: crimson;
+}
+.error{
+    color: darkseagreen;
+}
+.error{
+    color: darkorange;
+}
+div .error{
+    font-family: cursive;
+}
+div.error{
+    font-size: x-large;
+}
+.success{
+    text-decoration: line-through;
+}
+.success.feedback{
+    text-transform: uppercase;
+}
+p.success{
+    color: palegreen;
+}
+a[href]{
+    background-color: pink;
+}
+a[href="www.facebook.com"]{
+    color:red;
+}
+a[href*="google"]{
+    text-transform: uppercase;
+}
+a[href$=".com"]{
+    border: 2px solid blue;
+}
+div.inherit{
+    color: chocolate;
+    border: dotted 2px salmon;
+    margin: 20px;
+    font-weight: bold;
+}
+p.inherit{
+    border: inherit;
+    margin: inherit;
+    color: lawngreen;
+}
+div.inherit p.inherit{
+    color: khaki;
+}
